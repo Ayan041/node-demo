@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 })
 
 app.get("/about", (req, res) => {
-    console.log("About Us page fixed.");
+    console.log("About Us second time page fixed");
 })
 
 app.listen(5000, () => {
